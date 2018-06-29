@@ -1,0 +1,6 @@
+# -*- python -*-
+Import('env')
+
+tdd = env.Latex('kanban.tex')
+env.Default(tdd)
+
